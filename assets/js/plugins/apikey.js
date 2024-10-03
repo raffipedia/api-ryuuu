@@ -1,4 +1,3 @@
-
     const textnya = document.querySelector('.status');
     const warn = document.querySelector('.warn');
     var apikey = document.getElementById("responapikeymucoooookkk")
@@ -27,7 +26,7 @@
           } else {
             textnya.textContent = '[ INFO ] Apikey anda tidak valid!'
             swal("Apikey Tidak Valid!", "", "error");
-            alert('Apikey Tidak Valid. Silahkan beli apikey ke Instagram @zeeoneofc');
+            alert('Apikey Tidak Valid. Silahkan beli apikey ke Instagram @drags_pedia');
             amlert.classList.remove('hideop')
           }
         };
